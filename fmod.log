@@ -1,0 +1,245 @@
+[LOG] System::create                           : Header version = 1.10.04. Current version = 1.10.04.
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD Core Audio Output'
+[LOG] Manager::init                            : maxchannels = 1024 studioflags = 00000009 flags 00000000 extradriverdata 0x0.
+[LOG] SystemI::init                            : Initialize version=11004 (93853), maxchannels=1024, flags=0x00030000
+[LOG] OutputCoreAudio::enumerate               : Enumerating...
+[LOG] OutputCoreAudio::enumerate               : Found output driver: "Built-in Output".
+[LOG] OutputCoreAudio::enumerate               : Done.
+[LOG] OutputCoreAudio::init                    : Output running 2 channels at 44100Hz sample rate.
+[LOG] OutputCoreAudio::init                    : Maximum hardware read size: 1024 samples, Software buffer size: 512 samples, Number of software buffers: 4.
+[WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
+[LOG] Thread::initThread                       : Init FMOD stream thread. Priority: 2, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 5
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Priority: 3, Stack Size: 49152, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 0x16b220208 isAsync 1 updatePeriod 0.02
+[LOG] Thread::initThread                       : Init FMOD Studio update thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] LiveUpdate::init                         : 
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Priority: 0, Stack Size: 65536, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Profile::init                            : Profiler listening on port: 9264
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] Manager::readBank                        : fileversion = 100, compatVersion = 99 (oldest = 44, newest = 100)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Priority: 1, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] SystemI::createSound                     : setdata soundi = 0x14c1ec668 : node = 0x14c1ec820
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x14c1ec668
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14c1ec938
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7000044df7bc
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->useropen           = 0x14ad3f993
+[LOG] SystemI::createSoundInternal             :     exinfo->userclose          = 0x14ad3fa4f
+[LOG] SystemI::createSoundInternal             :     exinfo->userread           = 0x14ad3fa7f
+[LOG] SystemI::createSoundInternal             :     exinfo->userseek           = 0x14ad3fb1c
+[LOG] SystemI::createSoundInternal             :     exinfo->fileuserdata       = 0x13a28cc28
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            :     register codec pool for pool type 5
+[LOG] SystemI::createSoundInternal             :     Sample 0/1: name='click', format=2, channels=2, frequency=48000, lengthbytes=1856, lengthpcm=6231, pcmblocksize=0, loopstart=0, loopend=5306, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.975299.
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Gallipot', format=2, channels=2, frequency=48000, lengthbytes=2288448, lengthpcm=7968391, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.996094.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Priority: 1, Stack Size: 16384, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x14c1ec668
+[LOG] SoundI::getSubSound                      : sound 0x14c1ec668.  Subsound index 0 / 1
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x144413028 : node = 0x1441210b0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x144413028
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x1441211c8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x144413028
+[LOG] SoundI::getSubSound                      : sound 0x144413028.  Subsound index 0 / 1
+[LOG] SoundI::release                          : Gallipot (0x14c1ec668)
+[LOG] SoundI::release                          :     Gallipot (0x109cb3098)
+[LOG] SoundI::release                          :     Gallipot (0x14442cd88)
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x1441b3d38 : node = 0x144199000
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x1441b3d38
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x144199118
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 14436
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x1441b3d38
+[LOG] SoundI::getSubSound                      : sound 0x1441b3d38.  Subsound index 0 / 1
+[LOG] SoundI::release                          : mount leafcut (0x144413028)
+[LOG] SoundI::release                          :     mount leafcut (0x13908f6b8)
+[LOG] SoundI::release                          :     mount leafcut (0x1390b3168)
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13f0462e8 : node = 0x13f021b70
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13f0462e8
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13f021c88
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 14436
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13f0462e8
+[LOG] SoundI::getSubSound                      : sound 0x13f0462e8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : mount leafcut (0x1441b3d38)
+[LOG] SoundI::release                          :     mount leafcut (0x1441b50f8)
+[LOG] SoundI::release                          :     mount leafcut (0x1441b5288)
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a2bf3e8 : node = 0x13a277a60
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a2bf3e8
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a277b78
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 14436
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a2bf3e8
+[LOG] SoundI::getSubSound                      : sound 0x13a2bf3e8.  Subsound index 0 / 1
+[LOG] SoundI::release                          : mount leafcut (0x13f0462e8)
+[LOG] SoundI::release                          :     mount leafcut (0x14c1ead88)
+[LOG] SoundI::release                          :     mount leafcut (0x14c1e8d78)
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13a219f78 : node = 0x13a277ba0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13a219f78
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13a277cb8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 14436
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13a219f78
+[LOG] SoundI::getSubSound                      : sound 0x13a219f78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : mount leafcut (0x13a2bf3e8)
+[LOG] SoundI::release                          :     mount leafcut (0x144127098)
+[LOG] SoundI::release                          :     mount leafcut (0x144105d98)
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13bb15d78 : node = 0x13bbcc330
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13bb15d78
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x13bbcc448
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 14436
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13bb15d78
+[LOG] SoundI::getSubSound                      : sound 0x13bb15d78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : mount leafcut (0x13a219f78)
+[LOG] SoundI::release                          :     mount leafcut (0x144113798)
+[LOG] SoundI::release                          :     mount leafcut (0x144120098)
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x13bbcba78 : node = 0x109cb30b0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x13bbcba78
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x109cb31c8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 14436
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x13bbcba78
+[LOG] SoundI::getSubSound                      : sound 0x13bbcba78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : mount leafcut (0x13bb15d78)
+[LOG] SoundI::release                          :     mount leafcut (0x144198fe8)
+[LOG] SoundI::release                          :     mount leafcut (0x1441bb208)
+[LOG] SystemI::createSound                     : filename = music222/Build/Desktop/Master Bank.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x14c1e8d78 : node = 0x14c1ec470
+[LOG] SystemI::createSound                     : add node to async list : head = 0x14c1eca98.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x14c1e8d78
+[LOG] SystemI::createSoundInternal             :     Create name='music222/Build/Desktop/Master Bank.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 232
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5701952
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 27808
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x14c1ec588
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 14436
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='mount leafcut', format=2, channels=2, frequency=48000, lengthbytes=2376544, lengthpcm=8403487, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986877.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x14c1e8d78
+[LOG] SoundI::getSubSound                      : sound 0x14c1e8d78.  Subsound index 0 / 1
+[LOG] SoundI::release                          : mount leafcut (0x13bbcba78)
+[LOG] SoundI::release                          :     mount leafcut (0x14c1eab78)
+[LOG] SoundI::release                          :     mount leafcut (0x14c1eae98)
+[LOG] SoundI::release                          : mount leafcut (0x14c1e8d78)
+[LOG] SoundI::release                          :     mount leafcut (0x142f93118)
+[LOG] SoundI::release                          :     mount leafcut (0x13a2c1198)
+[LOG] SoundI::release                          :  (0x13f069928)
+[LOG] SoundI::release                          :     click (0x13a241288)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
+[LOG] SystemI::close                           : Closed.

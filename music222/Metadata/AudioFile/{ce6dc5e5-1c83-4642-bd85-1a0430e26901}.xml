@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{ce6dc5e5-1c83-4642-bd85-1a0430e26901}">
+        <property name="assetPath">
+            <value>bardragger.wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>1.9567346938775509</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{6f692194-ac5e-4ec3-945e-a44ca09cff64}</destination>
+        </relationship>
+    </object>
+</objects>

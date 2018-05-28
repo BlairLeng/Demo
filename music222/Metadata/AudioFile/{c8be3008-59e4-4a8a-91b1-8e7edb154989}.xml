@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{c8be3008-59e4-4a8a-91b1-8e7edb154989}">
+        <property name="assetPath">
+            <value>mount leafcut.mp3</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>175.07265306122449</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{6f692194-ac5e-4ec3-945e-a44ca09cff64}</destination>
+        </relationship>
+    </object>
+</objects>

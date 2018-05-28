@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{a61755e1-8d9c-4e4e-90a3-90ea87e92e14}">
+        <property name="name">
+            <value>lobby or not</value>
+        </property>
+        <relationship name="folder">
+            <destination>{e4ff3561-975e-4ae3-b430-b050e1affeac}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{51b9007d-f081-4f29-b35c-5e7e3393dd4a}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{51b9007d-f081-4f29-b35c-5e7e3393dd4a}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>
